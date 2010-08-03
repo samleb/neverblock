@@ -1,4 +1,4 @@
-require 'activerecord'
+require 'active_record'
 
 # Patch ActiveRecord to store transaction depth information
 # in fibers instead of threads. AR does not support nested
